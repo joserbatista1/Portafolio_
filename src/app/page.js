@@ -11,7 +11,8 @@ export default function Home() {
       
           <p className="text-2xl lg:text-justify mb-4 leading-relaxed max-w-md">
         Soy un desarrollador web apasionado por crear experiencias digitales
-        intuitivas y eficientes. Me especializo en tecnologías modernas como React, Next.js y Tailwind CSS, y disfruto resolver problemas complejos con código limpio y escalable.
+        intuitivas y eficientes. Me especializo en tecnologías modernas como React, Next.js y Tailwind CSS, y disfruto resolver 
+        problemas complejos con código limpio y escalable. Siempre adaptando las necesidades de mis clientes a cualquier tecnología
           </p>
               <Foto />
       </div>
