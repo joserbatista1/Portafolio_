@@ -6,7 +6,7 @@ export default function Home() {
   return (
 <section className="max-w-3xl mx-auto py-12 px-4">
       
-      <h1 className="md:text-8xl lg:text-6xl font-bold mb-6 max-w ">Hola, soy Jose Batista</h1>
+      <h1 className="text-5xl md:text-8xl  font-bold mb-6 max-w ">Hola, soy Jose Batista</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
       
           <p className="text-2xl lg:text-justify mb-4 leading-relaxed max-w-md">
