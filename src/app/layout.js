@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <Head />
       <body className="bg-white text-black bg-purple-900 dark:text-white transition-colors duration-300">
         {/* Layout en columna */}
-        <div className="flex flex-col min-h-screen">
+        <div className="bg-purple-950 flex flex-col min-h-screen">
           <Logo />
           <Navbar />
 
