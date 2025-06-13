@@ -15,14 +15,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <Head />
-      <body className="bg-white text-black dark:bg-purple-900 dark:text-white transition-colors duration-300">
+      <body className="bg-white text-black bg-purple-900 dark:text-white transition-colors duration-300">
         {/* Layout en columna */}
         <div className="flex flex-col min-h-screen">
           <Logo />
           <Navbar />
 
           {/* Contenido que crece */}
-          <main className="bg-white text-black flex-1 px-4 py-8">
+          <main className="bg-white text-black flex-1 px-4 py-8 m-0">
             <div className="max-w-4xl mx-auto">
               {children}
             </div>
