@@ -5,7 +5,7 @@ export default function Proyectos() {
     <div className="p-4 space-y-10">
       {/* Proyecto 1 - POS SYSTEM */}
       <section>
-        <h1 className="text-2xl mb-6 text-center font-bold">POS SYSTEM</h1>
+        <h1 className="text-2xl mb-6 text-center text-blue-400 font-bold">POS SYSTEM</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <Imagen src="/menuBienvenida.png" title="Menú de Bienvenida" />
           <Imagen src="/ventanaVentas.png" title="Pantalla de Ventas" />
@@ -15,7 +15,7 @@ export default function Proyectos() {
 
       {/* Proyecto 2 - INVENTARIO */}
       <section>
-        <h1 className="text-2xl mb-6 text-center font-bold">INVENTARIO</h1>
+        <h1 className="text-2xl mb-6 text-center text-red-400 font-bold">INVENTARIO</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <Imagen src="/categorias.png" title="Categorías" />
           <Imagen src="/productos.png" title="Listado de Productos" />
@@ -25,7 +25,7 @@ export default function Proyectos() {
 
       {/* Proyecto 3 - FACTURACIÓN */}
       <section>
-        <h1 className="text-2xl mb-6 text-center font-bold">FACTURACIÓN</h1>
+        <h1 className="text-2xl mb-6 text-center text-green-400 font-bold">FACTURACIÓN</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <Imagen src="/facturaNueva.png" title="Nueva Factura" />
           <Imagen src="/facturaHistorial.png" title="Historial" />
